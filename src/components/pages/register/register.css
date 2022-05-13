@@ -1,0 +1,50 @@
+.register{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: 
+    linear-gradient(
+        rgba(255,255,255,0.5),
+        rgba(255,255,255,0.5)
+    ) ,
+    url("https://static.vecteezy.com/system/resources/previews/001/253/516/large_2x/candied-violet-flowers-with-stalk-on-white-background-photo.jpg") ;
+    background-size: cover;
+}
+.registerTitle{
+    font-size: 50px;
+}
+.registerForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.registerForm > label{
+    margin: 10px 0;
+}
+.registerInput{
+    padding: 10px;
+    background-color: white;
+    border: none;
+}
+.registerButton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: teal;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+.registerLoginButton{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: lightcoral;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+}
