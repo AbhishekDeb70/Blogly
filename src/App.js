@@ -13,13 +13,13 @@ import {
 } from "react-router-dom";
 
 function App() {
-  const user=false;
+ // const user=false;
   return (
     <Router>
      <TopBar/>
      <Routes>
         <Route exact path="/" element={<Home />}/>
-        <Route  path="/register" element={<Register />}/>
+        <Route  path="/register"  element={<Register/>} />
         <Route  path="/post/single/:postId" element={<Single />}/>
         <Route  path="/post/write" element={<Write />}/>
         <Route  path="/settings" element={<Settings />}/>
